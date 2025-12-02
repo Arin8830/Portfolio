@@ -10,6 +10,7 @@ const projects = [
     tech: ["Python", "LangChain", "Streamlit", "RAG", "LLMs"],
     icon: MessageSquare,
     color: "primary",
+    github: "https://github.com/Arin8830/RAG_Study_bot",
   },
   {
     title: "Smart Mining Helmet",
@@ -17,6 +18,7 @@ const projects = [
     tech: ["ESP32", "IoT", "Machine Learning", "Sensors", "Python"],
     icon: HardHat,
     color: "accent",
+    github: null,
   },
   {
     title: "Sentiment Analysis - IMDb",
@@ -24,6 +26,7 @@ const projects = [
     tech: ["NLP", "Python", "Scikit-learn", "TF-IDF"],
     icon: Brain,
     color: "primary",
+    github: "https://github.com/Arin8830/IMB-Movie-Reviews",
   },
   {
     title: "Genome Sequencing Analysis",
@@ -31,6 +34,7 @@ const projects = [
     tech: ["Python", "RDKIT", "Data Analysis", "Bioinformatics"],
     icon: Dna,
     color: "accent",
+    github: null,
   },
 ];
 
@@ -69,12 +73,11 @@ const Projects = () => {
                     className={`w-10 h-10 ${project.color === 'primary' ? 'text-primary' : 'text-accent'}`} 
                   />
                   <div className="flex gap-3 opacity-0 group-hover:opacity-100 transition-opacity">
-                    <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                      <Github className="w-5 h-5" />
-                    </a>
-                    <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                      <ExternalLink className="w-5 h-5" />
-                    </a>
+                    {project.github && (
+                      <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                        <Github className="w-5 h-5" />
+                      </a>
+                    )}
                   </div>
                 </div>
 

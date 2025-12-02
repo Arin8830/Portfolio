@@ -53,7 +53,7 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          Data Scientist • Machine Learning Engineer • AI Enthusiast
+          Data Enthusiast • Data Analyst • Machine Learning Engineer
         </motion.p>
 
         <motion.div

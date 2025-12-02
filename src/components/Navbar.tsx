@@ -53,6 +53,7 @@ const Navbar = () => {
             ))}
             <motion.a
               href="/resume.pdf"
+              download="Arin_Saynere_Resume.pdf"
               className="px-4 py-2 border border-primary text-primary rounded hover:bg-primary hover:text-primary-foreground transition-all duration-300 font-mono text-sm"
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -92,6 +93,7 @@ const Navbar = () => {
               ))}
               <a
                 href="/resume.pdf"
+                download="Arin_Saynere_Resume.pdf"
                 className="px-4 py-2 border border-primary text-primary rounded hover:bg-primary hover:text-primary-foreground transition-all duration-300 font-mono text-sm"
               >
                 Resume

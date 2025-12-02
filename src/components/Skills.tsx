@@ -5,17 +5,17 @@ import { useRef } from "react";
 const skills = [
   { name: "Python", level: 90 },
   { name: "Machine Learning", level: 85 },
-  { name: "JavaScript", level: 75 },
+  { name: "Power BI", level: 80 },
   { name: "RAG / LLMs", level: 80 },
-  { name: "TailwindCSS", level: 80 },
-  { name: "MySQL", level: 70 },
-  { name: "Node.js", level: 65 },
-  { name: "Figma / UI/UX", level: 70 },
+  { name: "Excel", level: 85 },
+  { name: "MySQL", level: 75 },
+  { name: "Data Visualization", level: 80 },
+  { name: "Statistical Analysis", level: 75 },
 ];
 
 const techStack = [
   "PyTorch", "TensorFlow", "Scikit-learn", "FAISS", "LangChain",
-  "Streamlit", "Flask", "React", "ESP32", "STM32", "RDKIT", "GitHub"
+  "Streamlit", "Flask", "Pandas", "NumPy", "Matplotlib", "Seaborn", "RDKIT", "GitHub"
 ];
 
 const Skills = () => {

@@ -25,8 +25,6 @@ const education = [
 ];
 
 const achievements = [
-  "1st Rank in Presentation-Making Competition",
-  "2nd Runner up in Reasoning and Brainstorming Competition",
   "604th out of 4329 participants in Kaggle Competition",
   "Open Source Developer at Kaggle (June 2025 - Present)",
 ];
